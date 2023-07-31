@@ -30,7 +30,7 @@ Please ensure you have [Node.js](https://nodejs.org) and [npm](https://www.npmjs
 - React.js
 - Google Maps API for maps
 - CSS modules for styling
-- Chakra UI for styled components"
+- Chakra UI for styled components
 
 
 ## Feature

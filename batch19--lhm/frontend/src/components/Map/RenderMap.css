@@ -1,0 +1,53 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+.map-container {
+  position: absolute;
+  width: 100%;
+  height: 100vh;
+  z-index: 1; /* Set a higher z-index value for the map container */
+  overflow: hidden; /* Add overflow property to clip overflowing content */
+}
+
+.map-texture-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  min-height: 100%; /* Use min-height instead of height */
+  z-index: 2; /* Set a lower z-index value for the texture/image overlay */
+  pointer-events: none;
+  mix-blend-mode: multiply;
+  /* opacity: 0.8; Set opacity to 80% */
+  box-sizing: border-box; /* Include padding and border in width and height calculations */
+}
+
+.map-texture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  
+}
+
+
+
+
+
+.marker{
+   width:180%;
+}
+
+
+.card-image{
+    width:-webkit-fill-available;
+}
+
+button{
+    margin: 5px;
+}
+
+.container{
+    height: 100%;
+    overflow-y: hidden;
+}
+video::-webkit-media-controls {
+  display: none;
+}

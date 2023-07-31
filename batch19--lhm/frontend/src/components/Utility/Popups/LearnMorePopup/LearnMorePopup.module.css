@@ -1,0 +1,223 @@
+
+.popup{
+    position:absolute;
+    z-index: 1117;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    height: 80%;
+}
+
+.popupFrame{
+    display: flex;
+width: 21.5625rem;
+padding: 1rem;
+flex-direction: column;
+align-items: center;
+gap: 1rem;
+border-radius: 0.5rem;
+background: var(--sage-100, #FEFEFB);
+height: 100%;
+/* Dialog box shadow */
+box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+}
+
+.popupHeadingBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+.popupBanner{
+    display: flex;
+align-items: center;
+gap: 1rem;
+align-self: stretch;
+}
+.BookmarkBlock{
+    display: flex;
+    width: 1.6875rem;
+    height: 1.6875rem;
+    justify-content: center;
+    align-items: center;
+    gap: 0.43269rem;  
+}
+.avatarBlock{
+    display: flex;
+    padding-left: 0px;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+.avatarFrame{
+    display: flex;
+    width: 1.27925rem;
+    height: 1.62038rem;
+    padding: 0.04631rem 0rem 0.01406rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.kindoAvatar{
+    width: 1.30231rem;
+    height: 1.56rem;
+    flex-shrink: 0;
+}
+
+.Bookmark{
+    width: 1.6875rem;
+    height: 1.6875rem;
+    flex-shrink: 0; 
+}
+.cross{
+    width: 1.6875rem;
+height: 1.6875rem;
+}
+
+.popupHeadingTextBlock{
+    display: flex;
+height: 1.375rem;
+padding: 0rem 0.25rem;
+flex-direction: column;
+align-items: flex-end;
+gap: 1rem;
+align-self: stretch;
+}
+
+.popupHeadingText{
+    flex: 1 0 0;
+    align-self: stretch;
+    color: var(--sage-900, #424941);
+text-align: center;
+
+/* Subtitle/Medium */
+font-family: Poppins;
+font-size: 1.125rem;
+font-style: normal;
+font-weight: 600;
+line-height: 1.5rem; /* 133.333% */
+}
+
+.popupHeadingLineBlock{
+    display: flex;
+    padding: 0rem 0.25rem;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.1875rem;
+    align-self: stretch;
+}
+.popupHeadingLine{
+    width: 19.0625rem;
+height: 0.0625rem;
+background: #DCDCDC;
+}
+
+.popupBodyBlock {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    align-self: stretch;
+    overflow-y: scroll;
+    height: 100%; 
+  }
+  
+
+
+  .popupImageBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+    align-self: stretch;
+}
+
+.ImageBlock{
+    display: flex;
+    align-items: flex-start;
+    gap: 0.625rem;
+    align-self: stretch;
+}
+.Image{
+    height: 19.3125rem;
+align-self: stretch;
+margin: 0 auto;
+}
+
+.ImageCaption{
+    display: -webkit-box;
+width: 19.3125rem;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 8;
+
+overflow: hidden;
+color: var(--sage-900, #424941);
+text-align: center;
+text-overflow: ellipsis;
+font-family: Poppins;
+font-size: 0.75rem;
+font-style: normal;
+font-weight: 400;
+line-height: 160.5%; /* 1.20375rem */
+}
+
+.popupTextBlock{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 1rem;
+}
+
+.popupDescription{
+    color: var(--sage-900, #424941);
+
+/* Body 2/Regular */
+font-family: Poppins;
+font-size: 0.875rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1.375rem; /* 157.143% */
+}
+
+.listenButton{
+    border: solid 1px #33797A;
+    border-radius: 50px;
+    width: 55%;
+    font-size: large;
+    color: #33797A;
+}
+  
+
+
+
+.sectionFlex{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: -webkit-center;
+    width: 100%;
+}
+
+.titleHeader2{
+    font-weight: bold;
+    font-size: 2vh;
+    align-self: center;
+}
+
+.putBackButton{
+    display: flex;
+    width: 19.5625rem;
+    padding: 0.5rem;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    border-radius: 0.625rem;
+    background: var(--turqoise-800, #33797A);
+    color: white;
+    height: fit-content;
+    font-size: large;
+    font-weight: bold;
+}

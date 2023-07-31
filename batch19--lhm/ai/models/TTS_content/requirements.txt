@@ -1,0 +1,8 @@
+openai
+requests
+json
+os
+boto3
+ipython
+elevenlabs
+pydub

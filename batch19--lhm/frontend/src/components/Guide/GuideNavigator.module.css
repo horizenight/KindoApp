@@ -1,0 +1,98 @@
+.guideNavigator{
+    height: 100%;
+    background-color: white;
+}
+.guideNavigatorBarPanel{
+    height: 14%;
+}
+.searchBarPanel{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    border-bottom: 2px solid black;
+    background-color: #a88411;
+    flex-direction: column;
+}
+.searchBar{
+    height: 40%;
+    background-color: white;
+    width: 90%;
+    border-radius: 50px;
+    border: 3px solid black;
+    overflow: hidden;
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+}
+.searchBar input {
+    width: 85%;
+    margin: 2px 10px;
+    outline: none;
+}
+
+.guideNavigatorScreen{
+    height: 90%;
+    overflow-y: scroll;
+}
+.guideNavigationButton{
+    width: 100%;
+    height: 100%;
+    margin: 0;
+}
+
+.pathsBox{
+width: 100%;
+}
+.pathBox{
+width: 100%;
+}
+.pathName{
+    width: 90%;
+    margin: auto;
+    font-weight: bold;
+    font-size: x-large;
+}
+.pathDesc{
+    width: 90%;
+    margin: auto;
+}
+
+.filterBar{
+    width: 100%;
+}
+
+.filter{
+width: 90%;
+display: flex;
+flex-direction: row;
+margin: 10px auto;
+justify-content: space-between;
+overflow-x: scroll;
+}
+
+.filter::-webkit-scrollbar{
+    display: none;
+  }
+
+.categoryFilter{
+    border-radius: 10px;
+    border: black 2px solid;
+    padding: 0 10px;
+    margin: 0 5px;
+}
+
+.cardButtons{
+    display: flex;
+    flex-direction: row;
+}
+.cardButton{
+    font-size: 3vh;
+}
+
+
+.pathTitle{
+    display: flex;
+    justify-content: space-around;
+    width: 90%;
+    margin: auto;
+}

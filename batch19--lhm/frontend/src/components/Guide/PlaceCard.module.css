@@ -1,0 +1,35 @@
+.card{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+    margin: 10px;
+    background-color: #fbecbd;
+    border: 2px solid black;
+    border-radius: 10px;
+    height: 50px;
+    align-items: center;
+}
+.cardIconHolder{
+    width: 10%;
+    margin: 0 5px;
+}
+.cardIcon{
+    width: 100%;
+}
+.cardName{
+    align-self: left;
+    width: 80%;
+}
+.cardText{
+    text-align: left;
+    font-size: large;
+    font-weight: bold;
+}
+.cardButtons{
+    display: flex;
+    flex-direction: row;
+}
+.cardButton{
+    font-size: 3vh;
+}

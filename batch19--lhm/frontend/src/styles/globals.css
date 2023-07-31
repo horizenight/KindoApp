@@ -1,0 +1,70 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
+    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.container {
+  display: flex;
+  height: 100vh;
+}
+
+.controls {
+  width: 20%;
+  padding: 1rem;
+  background: #14161a;
+  color: #fff;
+}
+
+.controls input {
+  border: none;
+}
+
+.map-container {
+  width: 100%;
+  height: 100vh;
+  z-index:10;
+
+}
+
+.map {
+  width: 100%;
+  height: 100vh;
+}
+
+.map-texture-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  pointer-events: none;
+}
+
+.map-texture {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  opacity: 0.8;
+}
+
+.highlight {
+  font-size: 1.25rem;
+  font-weight: bold;
+}
+
+.combobox-input {
+  width: 100%;
+  padding: 0.5rem;
+}

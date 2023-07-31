@@ -1,0 +1,44 @@
+# Application config. All "REPLACE_ME" values must be provided from the outside!
+# e.g. with environment variables like SPRING_DATASOURCE_URL=jdbc:postgresql://some-host:5432/postgres
+#
+# In the "dev" profile, the values from application-dev.yaml are added.
+
+spring:
+  main:
+    banner-mode: off
+
+  profiles:
+    active:
+      prod
+
+  flyway:
+    locations: "classpath:db/migration"
+
+  datasource:
+    driver-class-name: "org.postgresql.Driver"
+    url: ${POSTGRES_URL}
+    username: ${POSTGRES_USER}
+    password: ${POSTGRES_PASS}
+    initialization-mode: always
+
+  # disable warning
+  jpa.open-in-view: false
+
+  servlet:
+    multipart:
+      max-file-size: "5MB"
+      max-request-size: "11MB"
+
+database: postgresql 
+
+server:
+  # Add the error message to outgoing JSON (not the stack trace!)
+  error.include-message: always
+  # Graceful shutdown: refuse new requests but complete running ones
+  shutdown: graceful
+
+logging:
+  level:
+    root: ERROR
+    org.springframework.web: ERROR
+    org.hibernate: ERROR

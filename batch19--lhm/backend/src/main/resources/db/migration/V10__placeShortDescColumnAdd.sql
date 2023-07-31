@@ -1,0 +1,2 @@
+ALTER TABLE place
+ADD COLUMN short_description VARCHAR(65535) NOT NULL DEFAULT('');

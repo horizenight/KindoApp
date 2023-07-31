@@ -1,0 +1,213 @@
+
+
+.teaser_card {
+    /* position: absolute;
+    bottom: 0;
+    z-index: 11;
+    display: flex;
+    width: 313px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    flex-shrink: 0;
+    align-self: stretch; */
+    
+    display: flex;
+width: 313px;
+padding: 16px;
+flex-direction: column;
+align-items: center;
+gap: 8px;
+flex-shrink: 0;
+align-self: stretch;
+    border-radius: 8px;
+    background: var(--sage-100, #FEFEFB);
+
+    /* Dialog box shadow */
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+    /* Centering the component */
+    /* left: 50%; */
+    transform: translateX(+15%);
+  }
+  
+  .teaser_card_heading {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+  }
+  
+  .teaser_card_logo_block {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+  
+  .teaser_card_logo_block_frame{
+    display: flex;
+    padding-left: 0px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+  }
+  .teaser_card_logo {
+    display: flex;
+    width: 1.27925rem;
+    height: 1.62038rem;
+    padding: 0.04631rem 0rem 0.01406rem 0rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .teaser_card_bookmark {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 6.923px;
+  }
+  
+  .teaser_card_heading_block {
+    display: flex;
+    height: 22px;
+    padding: 0px 4px;
+    flex-direction: column;
+    align-items: flex-end;
+    gap: 16px;
+    align-self: stretch;
+    overflow: hidden;
+
+    
+  }
+  .teaser_card_heading_text {
+    flex: 1 0 0;
+align-self: stretch;
+color: var(--sage-900, #424941);
+text-align: center;
+
+/* Subtitle/Medium */
+font-family: Poppins;
+font-size: 18px;
+font-style: normal;
+font-weight: 600;
+line-height: 24px; /* 133.333% */
+
+    
+  }
+
+  .teaser_card_heading_line{
+    width: 273px;
+height: 1px;
+background: #DCDCDC;
+  }
+  
+  .teaser_card_body {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    gap: 16px;
+    align-self: stretch;
+  }
+  
+  .teaser_card_image_block {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 4px;
+  }
+  
+  .teaser_card_image {
+    width: 114px;
+    height: 114px;
+    object-fit: cover;
+    
+    border-radius: 5px;
+  }
+  
+  .teaser_card_distance_data {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    align-self: stretch;
+  }
+
+
+  .teaser_card_distance_data_walking_frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.125rem;
+    flex: 1 0 0;
+  }
+  .teaser_card_distance_data_walking_frame_icon{
+    width: 0.625rem;
+    height: 0.625rem;
+  }
+  .teaser_card_distance_data_walking_frame_text{
+    color: var(--sage-900, #424941);
+
+    /* Label 2/Regular */
+    font-family: Poppins;
+    font-size: 0.625rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 1rem; 
+  }
+
+  .teaser_card_distance_data_time_frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.125rem;
+    flex: 1 0 0;
+  }
+
+  .teaser_card_distance_data_time_frame_icon{
+    width: 0.625rem;
+    height: 0.625rem;
+  }
+
+  .teaser_card_distance_data_time_frame_text{
+    color: var(--sage-900, #424941);
+
+/* Label 2/Regular */
+font-family: Poppins;
+font-size: 0.625rem;
+font-style: normal;
+font-weight: 400;
+line-height: 1rem; /* 160% */
+  }
+  
+  .teaser_card_body_data {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+  }
+  
+  .teaser_card_body_data_fact {
+    align-self: stretch;
+    /* Label 1/Regular */
+    color: var(--sage-900, #424941);
+/* Label 1/Regular */
+font-family: Poppins;
+font-size: 12px;
+font-style: normal;
+font-weight: 400;
+line-height: 20px; /* 166.667% */
+  }
+  
+  .teaser_card_body_data_buttons {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: flex-start;
+    gap: 8px;
+    align-self: stretch;
+  }
+  

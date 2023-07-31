@@ -1,0 +1,6 @@
+.teaser_module {
+  position: absolute;
+  z-index: 999;
+  bottom: 15px; /* Adjusted value */
+  width: 100%;
+}

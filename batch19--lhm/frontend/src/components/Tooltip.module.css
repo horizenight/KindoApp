@@ -1,0 +1,113 @@
+.tooltip_frame{
+    position: absolute;
+    align-items: center;
+    z-index: 999;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 80%;
+    height: 50%;
+}
+
+.tooltip_box{
+    border-radius: 8px;
+    border: 3px solid var(--sage-800, #6B7367);
+    background: var(--sage-100, #FEFEFB);
+    /* Dialog box shadow */
+    box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.15);
+    position: absolute;
+    bottom: 50%;
+}
+
+.text{
+    color: var(--sage-900, #424941);
+
+    /* Body 1/Regular */
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 24px; /* 150% */
+
+    margin-top: 5%;
+}
+
+
+ .tooltip_box  p {
+    padding: 10%;
+    height: 50%;
+
+    padding-bottom: 0;
+ }
+
+.button_box{
+    bottom: 0;
+    display: flex;
+    justify-content: space-between;
+    height: 20%;
+    padding: 10%;
+}
+
+.kindle{    
+    position: absolute;
+    left: 0;
+    border: 0;
+    bottom: -1%;
+}
+
+.letsgoButton{
+    background-color: #5CEED4;
+    border-radius: 15%;
+    padding: 10px;
+    margin: 0;
+}
+
+.prevButton{
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 10px;
+    border: 1px solid var(--turqoise-400, #31827C);
+    height: fit-content;
+    font-weight: bold;
+    color: var(--sage-900, #424941);
+    margin: 0;
+
+/* Body 2/Medium */
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px; /* 157.143% */
+}
+
+.nextButton{
+    display: flex;
+    padding: 8px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+    border-radius: 10px;
+    background: var(--turqoise-100, #89C9C4);
+    height: fit-content;
+    font-weight: bold;
+    color: var(--sage-900, #424941);
+
+/* Body 2/Medium */
+font-family: Poppins;
+font-size: 14px;
+font-style: normal;
+font-weight: 600;
+line-height: 22px; /* 157.143% */
+margin: 0;
+}
+
+.closeButton{
+    position: absolute;
+    right: 0;
+    margin: 10px;
+    font-size: 3vh;
+    color: var(--sage-900, #424941);
+}

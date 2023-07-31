@@ -1,0 +1,236 @@
+
+.inputField {
+    display: block;
+    box-sizing: border-box;
+    width: 100%;
+    border-radius: 4px;
+    border: 1px solid rgb(114, 22, 22);
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    font-size: 14px;
+  }
+  
+  .twoPanel{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    justify-content: space-between;
+  }
+  .singlePanel{
+    width: 48%;
+    display: block;
+    align-content: center;
+    text-align: center;
+    padding: 10px;
+    cursor: pointer;
+  }
+  .addPanel{
+    height: 100%;
+    width: 100%;
+  }
+  .label {
+    line-height: 2;
+    text-align: left;
+    display: block;
+    margin-bottom: 13px;
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 14px;
+    font-weight:400;
+  }
+  
+ body{
+  height: 100%;
+  overflow-y: scroll;
+  color: #000;
+  font-family: Poppins;
+  font-size: 1.75rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 2rem; /* 114.286% */
+ }
+
+ .cmsScreen{
+  height: 100%;
+ }
+  
+  button[type='form']:active, .submitButton:active {
+    transition: 0.3s all;
+    transform: translateY(3px);
+    border: 1px solid transparent;
+    opacity: 0.8;
+  }
+  
+  .disabledInput {
+    opacity: 0.4;
+  }
+  
+  .button:hover {
+    transition: 0.3s all;
+  }
+  
+  
+  .hr {
+    margin-top: 30px;
+  }
+  
+  .card {
+    background: var(--surface-card);
+    padding: 2rem;
+    border-radius: 10px;
+    margin-bottom: 1rem;
+}  
+.modifyPanel{
+  height: 90%;
+}
+.cmsPanel{
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  width: 90%;
+  height: 100%;
+  margin: 0 auto
+}
+.navBar, .navBarEdit{
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  background-color: #d1f2f7;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.navBarEditText{
+  margin-right: 20px;
+  color: #000;
+  cursor: pointer;
+
+/* Title/Medium */
+font-family: Poppins;
+font-size: 1.75rem;
+font-style: normal;
+line-height: 1.625rem; /* 130% */
+}
+
+.navBar input{
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.text{
+  font-weight: bold;
+}
+.title{
+  display: flex;
+  flex-direction: column;
+}
+.textDesc{
+  color: #000;
+font-family: Poppins;
+font-size: 1.75rem;
+font-style: normal;
+font-weight: 600;
+line-height: 2rem; /* 114.286% */
+}
+
+.textDescSub{
+  color: #000;
+
+  /* Title/Regular */
+  font-family: Poppins;
+  font-size: 1.25rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.625rem; /* 130% */
+}
+.submitButton{
+  position: absolute;
+  right: 0;
+  bottom: -100px;
+  border-radius: 0.25rem;
+  background: var(--turqoise-800, #33797A);
+  display: flex;
+  padding: 0.75rem 3.25rem;
+  align-items: flex-start;
+  gap: 1rem;
+  color: white;
+  font-size: 1.25rem;
+}
+.forms{
+  height: 75%;
+}
+.formsModify{
+  margin-bottom: 115px;
+  padding-left: 20px;
+}
+.header{
+  font-weight: bolder;
+  font-size: xx-large;
+  padding: 20px 0;
+  border-bottom: solid 1px black;
+}
+form{
+  position: relative;
+}
+textarea{
+  resize: none;
+}
+
+.searchWrapper{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgb(114, 22, 22);
+  padding: 10px 15px;
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+.inputField{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  border-radius: 4px;
+  border: 1px solid rgb(114, 22, 22);
+  padding: 10px 15px;
+  margin-bottom: 10px;
+}
+
+.modifyCardFrame{
+  width: 100%;
+}
+.modifyCard{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  color: #000;
+
+  /* Body 1/Regular */
+  font-family: Poppins;
+  font-size: 1rem;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 1.5rem; /* 150% */
+}
+
+.modifyButtons{
+  display: flex;
+  flex-direction: row;  
+}
+.modifyEditButton, .modifyRemoveButton{
+  display: flex;
+  flex-direction: row;
+  display: flex;
+  padding: 0.375rem 0.75rem;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem; 
+  border-radius: 0.25rem;
+  border: 1px solid var(--turqoise-800, #33797A);
+}
+.modifyEditButton:hover{
+  background-color: rgb(251, 216, 140);
+}
+.modifyRemoveButton:hover{
+  background-color: rgb(251, 191, 191);
+}

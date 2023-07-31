@@ -1,0 +1,334 @@
+.popup_frame{
+    position: absolute;
+    align-items: center;
+    z-index: 999;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 330px;
+    height: 80%;
+    margin-top: 25%;
+}
+
+.popup_box{
+    overflow: hidden;
+    background-color: white;
+    width: 90%;
+    height: 100%;
+    margin: auto;
+    border-radius: 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    text-align: center;
+    box-shadow: 1px 1px 10px black;
+}
+
+.icons{
+    width: 90%;
+    align-content: center;
+    margin: 10px auto;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.icon{
+    margin: auto;
+    text-align: -webkit-center;
+}
+
+.image{
+    border-radius: 10px;
+}
+
+.title{
+    width: 90%;
+    align-self: center;
+    text-align: -webkit-center;
+}
+
+.placeText{
+    width: 90%;
+    align-self: center;
+    font-size: 1.5vh;
+}
+
+.titleHeader{
+    font-weight: bold;
+    font-size: 2vh;
+    align-self: center;
+}
+
+.placeImage{
+    width: 90%;
+    align-self: center;
+    margin: 10px;
+    text-align: -webkit-center;
+}
+
+.placeName{
+    color: #292113;
+    font-size: large;
+    font-weight: bold;
+}
+
+.placeHeadline{
+    color: #292113;
+    font-size: large;
+}
+
+.skipButton{
+    width: 90%;
+    background-color: white;
+    border-radius: 10px;
+    border: solid 2px black;
+    height: 5vh;
+    font-weight: bold;
+    align-self: center;
+}
+
+.readButton{
+    width: 90%;
+    background-color: #5CEED4;
+    border-radius: 10px;
+    height: 5vh;
+    font-weight: bold;
+    align-self: center;
+}
+
+.placeInfo{
+    width: 90%;
+    align-self: center;
+    margin-bottom: 10px;
+}
+
+.scroll{
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.buttons{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    padding-bottom: 20px;
+}
+
+.putBackButton{
+    width: 90%;
+    background-color: #A78412;
+    color: white;
+    border-radius: 10px;
+    height: 5vh;
+    font-weight: bold;
+    align-self: center;
+}
+
+.imagePanel{
+    display: block;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    height: 70%;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.imagePanel::-webkit-scrollbar{
+    display: none;
+  }
+
+.imageGallery{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100%;
+}
+
+.imageCard{
+    display: block;
+    height: 90%;
+    margin: 10px;
+    margin-left: 0;
+    min-width: fit-content;
+}
+
+.image{
+    display: block;
+    margin: auto;
+    height: 80%;
+}
+
+.imageName{
+    display: block;
+    font-size: 1.5vh;
+    height: 20%;
+}
+
+.progressPanel{
+    display: block;
+    height: 20%;
+}
+.progressBox{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    height: 100%;
+}
+.progressLabels{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 70%;
+}
+.progressBar{
+    width: 100%;
+    display: block;
+    height: 30%;
+    position: relative;
+}
+.progressBarLineIn{
+    width: 100%;
+    display: block;
+    background-color: #33797A;
+    height: 5px;
+    border-radius: 3px;
+    position: absolute;
+}
+.progressBarLineOut{
+    width: 100%;
+    position: absolute;
+    background-color: #DCDCDC;
+    height: 5px;
+    border-radius: 3px;
+}
+
+.description{
+    width: 90%;
+    align-self: left;
+    text-align: -webkit-left;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+
+.progressLabel{
+    color: #A78412;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.popup_frame2{
+    position: absolute;
+    align-items: center;
+    z-index: 999;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 330px;
+    height: 80%;
+    margin-top: 25%;
+}
+
+
+
+.icons2{
+    width: 90%;
+    align-content: center;
+    margin: 10px auto;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.icon2{
+    margin: auto;
+    text-align: -webkit-center;
+}
+
+.image2{
+    border-radius: 10px;
+}
+
+.section{
+    width: 90%;
+    align-self: center;
+    text-align: -webkit-center;
+    margin: 10px auto;
+}
+
+
+.sectionFlex{
+    align-self: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: -webkit-center;
+}
+
+.listenButton{
+    border: solid 1px black;
+    border-radius: 50px;
+    width: 40%;
+}
+
+.placeText2{
+    width: 90%;
+    align-self: center;
+    font-size: 1.5vh;
+}
+
+.titleHeader2{
+    font-weight: bold;
+    font-size: 2vh;
+    align-self: center;
+}
+
+.placeImage2{
+    width: 90%;
+    align-self: center;
+    margin: 10px;
+    text-align: -webkit-center;
+}
+
+.placeName2{
+    color: #85D4C6;
+    font-size: large;
+    font-weight: bold;
+}
+
+
+
+
+
+.buttons2{
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    align-self: center;
+    margin: 10px;
+    padding-bottom: 20px;
+}
+
+.scroll{
+    overflow-y: scroll;
+}

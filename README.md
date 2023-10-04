@@ -1,7 +1,5 @@
 # KindoApp - Digital Tour Guide ( Mobile View Only ) 
 
-![android-chrome-192x192](https://github.com/horizenight/KindoApp/assets/76839614/183e0e54-cd7f-4141-acbb-149d317f72e7)
-
 Welcome to KindoApp, your digital tour guide to explore the rich history and culture of Munich,Germany. With interactive features, captivating stories, and self-guided paths, KindoApp aims to empower individuals to immerse themselves in Munich's cultural heritage and learn in fun , engaging way ! 
 
 Link for the Live Application 🖐️ [here](https://www.histourists-lhm.dpschool.app/).

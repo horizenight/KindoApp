@@ -14,7 +14,7 @@ Feel free to explore the app's features and navigate through the digital tour gu
 
 
 ## 🎥 Demo Video
-https://github.com/horizenight/KindoApp/assets/76839614/89c0c943-db31-4505-897e-5dcc013983cb
+[https://www.youtube.com/watch?v=0A0zUK4lGh4](https://www.youtube.com/watch?v=0A0zUK4lGh4)
 
 🌐 **Vision**
 
